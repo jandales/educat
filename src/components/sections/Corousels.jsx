@@ -7,28 +7,29 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-
+import { Image } from "../../data";
+const { FeatureImage1, FeatureImage2, FeatureImage3, } = Image;
 let list = [
   {
     counterText:'01',
     title:"Do more with Educat",         
     heading:'Offline learning',
     description:'The ideal solution to empower learners with no access to an internet cinnection',
-    image:'../src/assets/feature1-36d491d5.png',
+    image: FeatureImage1,
   },
   {
     title:"Do more with Educat",
     counterText:'02',
     heading:'Supplementary Learning Materials',
     description:'Our printed and interactive learning materials are perfect to help strengthen your learning.',
-    image:'../src/assets/feature2-43fc1a41.png',
+    image: FeatureImage2,
   },
   {
     title:"Do more with Educat",
     counterText:"03",
     heading:"All-in-one LMS Platform",
     description : "All the solutions you need in one powe  rful platform.",
-    image:"../src/assets/feature3-bb178032.png",
+    image: FeatureImage3,
   }
 ]
 

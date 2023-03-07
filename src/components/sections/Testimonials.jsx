@@ -1,11 +1,13 @@
 
+
+import { Image } from '../../data';
 import TestimonialPerson from '../Testimonials/TestimonialPerson';
 import TestimonialComment from '../Testimonials/TestimonialComment';
 import TestimonialTitle from '../testimonials/TestimonialTitle';
 import TestimonialBullet from '../testimonials/TestimonialBullet';
 
 
-
+const { QuotationImage, TestimonialPersonImage } = Image;
 
 function Testimonials()  {
 
@@ -21,11 +23,11 @@ function Testimonials()  {
                         <br className="hidden md:block"></br>
                         <div className="w-full h-auto relative">
 
-                            <img src="../src/assets/icons/quotation-marks-svgrepo-com.svg" className="w-10 absolute -top-5 md:w-12 md:-left-10 md:-top-10" />
+                            <img src={QuotationImage} className="w-10 absolute -top-5 md:w-12 md:-left-10 md:-top-10" />
 
                             <TestimonialComment text="Scuola Maria is fortunate to work with PCI early on when the pandemic hit the country. My ideas and my curriculum design all came to life in the NEST — our exclusive LMS for our students. If not for PCI, we wouldn't be able to continue education at this very difficult time." />
 
-                            <img src="../src/assets/icons/quotation-marks-svgrepo-com.svg" className="w-10 absolute right-0 bottom-1 md:w-10 md:-bottom-10 md:right-36" />
+                            <img src={QuotationImage} className="w-10 absolute right-0 bottom-1 md:w-10 md:-bottom-10 md:right-36" />
                         </div>
 
 
@@ -59,7 +61,7 @@ function Testimonials()  {
                             md:before:bottom-0
                             md:before:top-36"
                         >
-                            <img src="../src/assets/testimonial-bb720088.png" className="absolute -bottom-5 w-52 md:w-[325px] z-10 md:block md:ml-12 md:bottom-0" />
+                            <img src={TestimonialPersonImage} className="absolute -bottom-5 w-52 md:w-[325px] z-10 md:block md:ml-12 md:bottom-0" />
 
                         </div>
                     </div>

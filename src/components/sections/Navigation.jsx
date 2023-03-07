@@ -1,4 +1,5 @@
 import Button from "../Base/Button";
+import logo from "../../assets/logo-34332373.png"
 
 function Navigation() {
 
@@ -29,7 +30,7 @@ function Navigation() {
           ">
 
             <a href='#' >
-                <img data-aos="fade-down" src="../src/assets/logo-34332373.png" className='w-[180px] md:w-[232px]' />
+                <img data-aos="fade-down" src={logo} className='w-[180px] md:w-[232px]' />
             </a>
 
             <span onClick={handleOpenMenu} class="text-3xl md:hidden"><i class="bi bi-list"></i></span>
@@ -41,7 +42,7 @@ function Navigation() {
                 </span>
 
                 <a href='#' className="md:hidden">
-                    <img src="../src/assets/logo-34332373.png" className='w-[180px] md:w-[232px]' />
+                    <img src={logo} className='w-[180px] md:w-[232px]' />
                 </a>
 
                 <ul className="flex flex-col items-center gap-8 md:flex-row">

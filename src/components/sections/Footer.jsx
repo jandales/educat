@@ -1,4 +1,7 @@
 
+import { Image } from '../../data'
+
+const { LogoImage } = Image;
 
 function Footer(){
   
@@ -13,7 +16,7 @@ function Footer(){
                 </ul>
                 <div className="w-full md:w-[1132px] md:mx-auto flex flex-col items-center justify-between py-8 px-4 md:flex-row">
                     <a href='' data-aos="fade-up" data-aos-delay="100">
-                        <img src="../src/assets/logo-34332373.png" className='w-[128px]' />
+                        <img src={LogoImage} className='w-[128px]' />
                     </a>
 
                     <a className="order-2 md:order-1 text-sm text-[#000000] mt-4 md:mt-0" data-aos="fade-up" data-aos-delay="600"> © Copyright 2021. All rights reserved.</a>

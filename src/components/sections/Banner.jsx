@@ -1,19 +1,28 @@
 
 import { useEffect, useRef } from 'react'
 
-
+import { Image } from '../../data';
+const { MonitorImage,
+    MessageImage,
+    AnnouncementImage,
+    CalendarImage,
+    AssessmentImage,
+    UserImage,
+    SecurityImage,
+    SectionImage,
+    AnalyticstImage,
+    ToolsImage } = Image
 let icons = [
-    { name: 'Progress Monitoring', image: '../src/assets/monitoring-21ace7f6.svg' },
-    { name: 'Messaging', image: '../src/assets/messaging-23dfda50.svg' },
-    { name: 'announcements', image: '../src/assets/announcement-ad555144.svg' },
-    { name: 'calendar', image: '../src/assets/calendar-d86047de.svg' },
-    { name: 'assessments', image: '../src/assets/assessment-689cfd2a.svg' },
-    { name: 'calendar', image: '../src/assets/calendar-d86047de.svg' },
-    { name: 'user management', image: '../src/assets/users-0b0d31be.svg' },
-    { name: 'security', image: '../src/assets/security-6287276c.svg' },
-    { name: 'section management', image: '../src/assets/section-01eef394.svg' },
-    { name: 'analytics', image: '../src/assets/analytics-62101890.svg' },
-    { name: 'tools', image: '../src/assets/tools-184af6e0.svg' }
+    { name: 'Progress Monitoring', image: MonitorImage },
+    { name: 'Messaging', image: MessageImage },
+    { name: 'announcements', image: AnnouncementImage },
+    { name: 'calendar', image: CalendarImage },
+    { name: 'assessments', image: AssessmentImage },
+    { name: 'user management', image: UserImage },
+    { name: 'security', image: SecurityImage },
+    { name: 'section management', image: SectionImage },
+    { name: 'analytics', image: AnalyticstImage },
+    { name: 'tools', image: ToolsImage }
 ];
 
 

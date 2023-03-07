@@ -1,7 +1,10 @@
 
 
-function Hero() {
+import {Image} from '../../data';
 
+
+function Hero() {
+    const { HeroImage } = Image;
         return (
             <section id="hero" className="w-full flex flex-col items-center md:flex-row md:w-[1132px] mt-8 md:mt-1 md:mx-auto">
 
@@ -37,7 +40,7 @@ function Hero() {
                     after:content-none
                     after:bg-gradient-radial-after
                     ">
-                     <img src='../src/assets/hero-banner-a553bb7d.png' className="max-w-full block" />
+                     <img src={HeroImage} className="max-w-full block" />
                     </div>
 
                 </div>

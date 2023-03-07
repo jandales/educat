@@ -1,13 +1,18 @@
+import { Image } from "../../data"
+
+
 
 function BannerBottom() {
 
+    const { PawsImage, CatImage } = Image
+    
         return (
 
             <div data-aos="fade-up"  className="relative bg-[#3966D8] w-full overflow-hidden  py-16 mb-4 md:rounded-xl md:w-[1132px] md:mx-auto">
 
 
                 <div data-aos="fade-right" data-aos-delay="300" class="absolute bottom-0 left-8 w-24 md:w-auto md:left-[95px]">
-                    <img src="../src/assets/cat-35a2c2e8.svg" />
+                    <img src={CatImage} />
                 </div>
 
 
@@ -26,7 +31,7 @@ function BannerBottom() {
 
 
                 <div data-aos="fade-left" data-aos-delay="300" class="absolute bottom-0 right-8 w-24 md:w-auto md:right-[95px] ">
-                    <img src="../src/assets/paws-ee681565.svg" />
+                    <img src={PawsImage} />
                 </div>
 
 

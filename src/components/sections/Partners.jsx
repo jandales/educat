@@ -1,14 +1,17 @@
 
 import Title from '../Base/Title';
 import Heading from '../Base/Heading';
+import { Image } from '../../data';
+
+const { PartnerImage1, PartnerImage2, PartnerImage3, PartnerImage4, PartnerImage5, PartnerImage6 } = Image
 
 let lists = [
-    '../src/assets/partners/partner1-a09bc461.png',
-    '../src/assets/partners/partner2-de43687d.png',
-    '../src/assets/partners/partner3-b177d39d.png',
-    '../src/assets/partners/partner4-c0b81eff.png',
-    '../src/assets/partners/partner5-e803fe28.png',
-    '../src/assets/partners/partner6-167d2745.png',
+    PartnerImage1,
+    PartnerImage2,
+    PartnerImage3,
+    PartnerImage4,
+    PartnerImage5,
+    PartnerImage6
 ]
 
 function Partners() {
