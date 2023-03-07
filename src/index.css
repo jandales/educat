@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+    @variants responsive {
+        .no-scrollbar::-webkit-scrollbar{
+            display:none;
+        }
+
+        .no-scrollbar {
+            -ms-overflow-style:none;
+            scrollbar-width:none;
+        }
+    }
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('https: //fonts.google.com/specimen/Poppins?query=poppins');           
+}
+
+@font-face {
+    font-family: 'Noto-serif';
+    src: url('https: //fonts.google.com/noto/specimen/Noto+Serif?query=NOTO+SERIF');
+}
+
+p label span li {
+    @apply font-poppins;
+}
+
+
