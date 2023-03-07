@@ -1,5 +1,6 @@
 import Button from "../Base/Button";
 import logo from "../../assets/logo-34332373.png"
+import { navigationLinks } from '../../Data/Links'
 
 function Navigation() {
 
@@ -16,13 +17,7 @@ function Navigation() {
         element.classList.replace(flex, hidden)
     }
 
-    let links = [
-        { name: 'Home', link: '#' },
-        { name: 'Products', link: '#' },
-        { name: 'Featured', link: '#' },
-        { name: 'Partners', link: '#' },
-        { name: 'About us', link: '#' },
-    ];
+ 
 
     return (
 
@@ -47,7 +42,7 @@ function Navigation() {
 
                 <ul className="flex flex-col items-center gap-8 md:flex-row">
                     {
-                        links.map(item => {
+                        navigationLinks.map(item => {
                             return (
                                 <li><a href={ item.link } className="text-darker leading-5 text-lg md:text-xl cursor-pointer hover:text-mantis font-poppins">{ item.name}</a></li>
                             )

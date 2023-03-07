@@ -1,29 +1,7 @@
 
 import { useEffect, useRef } from 'react'
 
-import { Image } from '../../data';
-const { MonitorImage,
-    MessageImage,
-    AnnouncementImage,
-    CalendarImage,
-    AssessmentImage,
-    UserImage,
-    SecurityImage,
-    SectionImage,
-    AnalyticstImage,
-    ToolsImage } = Image
-let icons = [
-    { name: 'Progress Monitoring', image: MonitorImage },
-    { name: 'Messaging', image: MessageImage },
-    { name: 'announcements', image: AnnouncementImage },
-    { name: 'calendar', image: CalendarImage },
-    { name: 'assessments', image: AssessmentImage },
-    { name: 'user management', image: UserImage },
-    { name: 'security', image: SecurityImage },
-    { name: 'section management', image: SectionImage },
-    { name: 'analytics', image: AnalyticstImage },
-    { name: 'tools', image: ToolsImage }
-];
+import icons from '../../Data/BannerIcons';
 
 
 
@@ -76,14 +54,19 @@ function Banner() {
 
                     <div  className='w-full bg-[#FDC00F4F] shadow-[0px_0px_20px_20px] shadow-amber-50 rounded-tl-[30%] rounded-tr-[30%] md:rounded-l-full overflow-hidden'>
                         <div ref={itemRef} className="w-[13rem] gap-4 max-h-80  mx-auto flex flex-wrap pt-10 overflow-y-auto no-scrollbar delay-1000 ease-in scroll-smooth md:pt-16 md:max-h-[490px] md:gap-8 md:w-[14rem]  md:pb-4  lg:w-[19rem] ] ">
-                            {icons.map(icon =>
-                                <div key={icon.name} className="w-24 aspect-square bg-white rounded-xl drop-shadow-xl flex flex-col items-center justify-center  gap-4 px-8 lg:w-28">
-                                    <div className='w-6 aspect-square  md:w-7  lg:w-14  '>
-                                        <img src={icon.image} className="w-full h-full" />
-                                    </div>
-                                    <label className="text-xs text-center  capitalize">{icon.name}</label>
-                                </div>
-                            )}
+                            {
+                                icons.map(icon => {
+                                    return (
+                                        <div key={icon.name} className="w-24 aspect-square bg-white rounded-xl drop-shadow-xl flex flex-col items-center justify-center  gap-4 px-8 lg:w-28">
+                                            <div className='w-6 aspect-square  md:w-7  lg:w-14  '>
+                                                <img src={icon.image} className="w-full h-full" />
+                                            </div>
+                                            <label className="text-xs text-center  capitalize">{icon.name}</label>
+                                        </div>
+                                    )
+                                    }
+                                )
+                            }
 
                         </div>
                    </div>
