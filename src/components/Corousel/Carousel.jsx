@@ -9,7 +9,7 @@ import Arrow from './Arrow'
 function Carousel(props) {
  
         return (
-            <div className="relative bg-blue md:rounded-xl w-full  md:max-w-[1132px] h-auto md:h-[367px] overflow-hidden px-10">
+            <div className="relative bg-blue md:rounded-xl w-full  md:max-w-[1132px] h-[400px] md:h-[367px] overflow-hidden px-10">
 
                 <div className="flex flex-col  gap-4 md:flex-row  md:gap-8">
 
@@ -17,7 +17,7 @@ function Carousel(props) {
 
                         <Title text={props.title} />
 
-                        <div className="flex flex-col gap-4 md:gap-6 pt-4 md:flex-row">
+                        <div className="flex flex-col gap-4 md:gap-6 md:pt-2 md:pt-4 md:flex-row">
 
                             <Heading text={props.counterText} />
 

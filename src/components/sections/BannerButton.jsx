@@ -26,7 +26,7 @@ function BannerBottom() {
                     </p>
 
 
-                    <a data-aos="fade-down" data-aos-delay="200"  className="uppercase text-[[#3966D8] bg-white font-bold rounded-sm px-10 py-3 md:py-4 z-10 md:z-0">let's talk!</a>
+                    <a data-aos="fade-down" data-aos-delay="200"  className="uppercase text-sm text-[#3966D8] bg-white font-bold rounded-sm px-10 py-3 md:text-base md:py-4 z-10 md:z-0">let's talk!</a>
                 </div>
 
 

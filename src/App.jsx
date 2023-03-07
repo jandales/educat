@@ -21,7 +21,7 @@ function App() {
     offset : 0,
   });
   return (
-    <div className="w-full md:p-0 lg:max-w-[1440px]">
+    <div className="w-full lg:p-0  lg:max-w-[1440px]">
       <div className="w-full lg:w-[1440px] h-[800px]">
         <Alert />
         <Navigation />

@@ -48,7 +48,7 @@ function Testimonials()  {
 
 
                     <div class="w-full  md:w-2/5 relative ">
-                        <div data-aos="fade-up" data-aos-delay="100"  data-aos-offset="500" class="w-full h-[486px] md:w-[503px] flex items-center justify-center  md:ml-8 
+                        <div data-aos="fade-up" data-aos-delay="100"  data-aos-offset="500" class="w-full h-80 md:h-[486px] md:w-[503px] flex items-center justify-center  md:ml-8 
                             before:block 
                             before:absolute  
                             before:rounded-full 

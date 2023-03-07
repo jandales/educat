@@ -12,7 +12,7 @@ function Product(props) {
         animate = "fade-left"
     }
         return (
-            <div data-aos={animate} className="w-[260px] aspect-square flex items-center flex-col gap-4">
+            <div data-aos={animate} className="w-64 aspect-square flex items-center flex-col gap-4">
                 
                 <div className="w-28 aspect-square">
                     <img src={props.image} className="w-full h-full" />

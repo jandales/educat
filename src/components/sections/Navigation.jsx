@@ -1,3 +1,4 @@
+import { useRef, useEffect } from "react";
 import Button from "../Base/Button";
 import logo from "../../assets/logo-34332373.png"
 import { navigationLinks } from '../../Data/Links'
@@ -6,6 +7,8 @@ function Navigation() {
 
     let hidden = 'hidden';
     let flex = 'flex'
+    let fixed = 'fixed'
+    const wrapper = useRef(null)
 
     function handleOpenMenu() {
         const element = document.getElementById('nav')
@@ -17,18 +20,21 @@ function Navigation() {
         element.classList.replace(flex, hidden)
     }
 
+
+
+
  
 
     return (
 
-        <div className="w-full px-4   flex items-center justify-between md:py-8 md:w-[1132px] md:mx-auto md:px-0
+        <div    className="w-full px-4 flex items-center justify-between md:py-8 md:w-[1132px] md:mx-auto md:px-0
           ">
 
             <a href='#' >
                 <img data-aos="fade-down" src={logo} className='w-[180px] md:w-[232px]' />
             </a>
 
-            <span onClick={handleOpenMenu} class="text-3xl md:hidden"><i class="bi bi-list"></i></span>
+            <span data-aos="fade-down"  onClick={handleOpenMenu} class="text-3xl md:hidden"><i class="bi bi-list"></i></span>
 
             <nav data-aos="fade-down" id="nav" className='hidden w-full h-full z-10 fixed top-0 left-0 bg-white flex-col gap-8 items-center  p-8 md:w-auto md:h-auto md:flex md:flex-row md:items-center md:gap-8 md:p-0 md:relative md:right-0'>
 
