@@ -23,11 +23,11 @@ function Testimonials()  {
                         <br className="hidden md:block"></br>
                         <div className="w-full h-auto relative">
 
-                            <img src={QuotationImage} className="w-10 absolute -top-5 md:w-12 md:-left-10 md:-top-10" />
+                            <img data-aos="fade-up" data-aos-delay="100" src={QuotationImage} className="w-10 absolute -top-5 md:w-12 md:-left-10 md:-top-10" />
 
                             <TestimonialComment text="Scuola Maria is fortunate to work with PCI early on when the pandemic hit the country. My ideas and my curriculum design all came to life in the NEST — our exclusive LMS for our students. If not for PCI, we wouldn't be able to continue education at this very difficult time." />
 
-                            <img src={QuotationImage} className="w-10 absolute right-0 bottom-1 md:w-10 md:-bottom-10 md:right-36" />
+                            <img data-aos="fade-up" data-aos-delay="100"  src={QuotationImage} className="w-10 absolute right-0 bottom-1 md:w-10 md:-bottom-10 md:right-36" />
                         </div>
 
 
@@ -48,7 +48,7 @@ function Testimonials()  {
 
 
                     <div class="w-full  md:w-2/5 relative ">
-                        <div class="w-full h-[486px] md:w-[503px] flex items-center justify-center  md:ml-8 
+                        <div data-aos="fade-up" data-aos-delay="100"  data-aos-offset="500" class="w-full h-[486px] md:w-[503px] flex items-center justify-center  md:ml-8 
                             before:block 
                             before:absolute  
                             before:rounded-full 

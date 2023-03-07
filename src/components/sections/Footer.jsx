@@ -20,7 +20,7 @@ function Footer(){
                 </ul>
                 <div className="w-full md:w-[1132px] md:mx-auto flex flex-col items-center justify-between py-8 px-4 md:flex-row">
 
-                    <a href='' data-aos="fade-up" data-aos-delay="100">
+                    <a href='#' data-aos="fade-up" data-aos-delay="100">
                         <img src={LogoImage} className='w-[128px]' />
                     </a>
 
