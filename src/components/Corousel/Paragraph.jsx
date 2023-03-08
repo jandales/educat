@@ -3,7 +3,7 @@
 function Paragraph(props) {
    
         return (
-            <p className="text-white text-center  text-base md:text-left">
+            <p className="text-white   text-base lg:text-left">
                 {props.text}
             </p>
         )

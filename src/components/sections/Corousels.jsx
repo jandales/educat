@@ -10,34 +10,35 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import CarouselList from '../../Data/CorouselList'
-
+import  Container from "../Container";
 function Carousels() {
  
   return (
-    <div  data-aos="fade-up" className="w-full md:w-[1132px] md:mx-auto flex  md:gap-8 mt-16 ">
-        <Swiper spaceBetween={0}
-          effect={"fade"}
-          navigation={false}
-          loop={true}         
-          modules={[EffectFade, Navigation, Pagination]}
-          className="mySwiper"> 
+    <Container>
+        <div data-aos="fade-up" className="w-full flex  md:gap-8 mt-16 ">
+          <Swiper spaceBetween={0}
+            effect={"fade"}
+            navigation={false}
+            loop={true}
+            modules={[EffectFade, Navigation, Pagination]}
+            className="mySwiper">
 
-        {CarouselList.map((item, index) => 
-            <SwiperSlide key={index}>
-              <Carousel
-                counterText={item.counterText}
-                title={item.title}
-                heading={item.heading}
-                description={item.description}
-                image={item.image}
-              />
-            </SwiperSlide>
-          )}   
-          
-      </Swiper>
-      
-  </div>
-    
+            {CarouselList.map((item, index) =>
+              <SwiperSlide key={index}>
+                <Carousel
+                  counterText={item.counterText}
+                  title={item.title}
+                  heading={item.heading}
+                  description={item.description}
+                  image={item.image}
+                />
+              </SwiperSlide>
+            )}
+
+          </Swiper>
+
+        </div>
+    </Container>    
    )
 }
 

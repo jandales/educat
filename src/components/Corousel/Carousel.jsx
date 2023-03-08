@@ -9,15 +9,14 @@ import Arrow from './Arrow'
 function Carousel(props) {
  
         return (
-            <div className="relative bg-blue md:rounded-xl w-full  md:max-w-[1132px] h-[400px] md:h-[367px] overflow-hidden px-10">
+            <div className="relative bg-blue rounded-xl w-full  h-[250px] md:h-[280px] overflow-hidden px-10">
 
-                <div className="flex flex-col  gap-4 md:flex-row  md:gap-8">
 
-                    <div className="w-full md:w-1/2 p-4 md:p-8 h-auto md:mt-8">
+                    <div className="w-full relative h-auto z-10 lg:w-1/2 p-4 md:p-8 lg:mt-8">
 
                         <Title text={props.title} />
 
-                        <div className="flex flex-col gap-4 md:gap-6 md:pt-2 md:pt-4 md:flex-row">
+                        <div className="flex gap-4 md:gap-6 md:pt-4 ">
 
                             <Heading text={props.counterText} />
 
@@ -30,11 +29,11 @@ function Carousel(props) {
 
                     </div>
 
-                    <div className="w-full flex items-center justify-center md:w-1/2  relative md:h-[367px]">
+                   
                         <Image image={props.image} />
-                    </div>
+               
 
-                </div>
+          
 
                 <Arrow />
 

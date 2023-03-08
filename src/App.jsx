@@ -22,21 +22,20 @@ function App() {
   });
   return (
     <div className="w-full lg:p-0  lg:max-w-[1440px]">
-      <div className="w-full lg:w-[1440px] h-[800px]">
-        <Alert />
-        <Navigation />
-        <Hero />
-        {/* <IconDown /> */}
-        <Products />
-        <Carousels />
-        <Offers />
-        <Banner />
-        <CountCard />
-        <Testimonials />
-        <Partners />
-        <BannerBottom />
-        <Footer/>
-      </div>
+      <Alert />
+      <Navigation />
+      <Hero />
+      {/* <IconDown /> */}
+      <Products />
+      <Carousels />
+      <Offers />
+      <Banner />
+      <CountCard />
+      <Testimonials />
+      <Partners />
+      <BannerBottom />
+      <Footer />
+
     </div>    
   )
 }

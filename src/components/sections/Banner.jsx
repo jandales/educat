@@ -38,7 +38,7 @@ function Banner() {
 
         return (
 
-            <div data-aos="fade-up" data-aos-delay="100"  className="w-full bg-ligth-blue flex flex-col mt-16  overflow-hidden md:w-[1132px] md:mx-auto md:flex-row md:h-[490px] md:rounded-xl ">
+            <div data-aos="fade-up" data-aos-delay="100" className="w-full bg-ligth-blue flex flex-col mt-16  overflow-hidden  lg:max-w-5xl xl:max-w-6xl  lg:p-0 lg:mx-auto md:flex-row md:h-[490px] md:rounded-xl ">
 
                 <div className="w-full md:w-1/2 p-10 flex flex-col items-center justify-center md:items-start md:justify-start">
 
