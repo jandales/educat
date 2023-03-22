@@ -15,11 +15,12 @@ function Banner() {
 
         const scrollHeight = element.scrollHeight;
         const heigth = element.clientHeight;
-        const maxScrollTop = scrollHeight - heigth;     
-
+        const maxScrollTop = scrollHeight - heigth;
+  
+  
         setInterval(() => {
             element.scrollTop = maxScrollTop > 0 ? maxScrollTop : 0;
-     
+            
             setTimeout(() => {
                 element.scrollTop = 0;
             }, 2000)
@@ -53,7 +54,7 @@ function Banner() {
                 <div data-aos="fade-left" data-aos-delay="100"  className="w-full   md:w-1/2 ">
 
                     <div  className='w-full bg-[#FDC00F4F] shadow-[0px_0px_20px_20px] shadow-amber-50 rounded-tl-[30%] rounded-tr-[30%] md:rounded-l-full overflow-hidden'>
-                        <div ref={itemRef} className="w-[13rem] gap-4 max-h-80  mx-auto flex flex-wrap pt-10 overflow-y-auto no-scrollbar delay-1000 ease-in scroll-smooth md:pt-16 md:max-h-[490px] md:gap-8 md:w-[14rem]  md:pb-4  lg:w-[19rem] ] ">
+                        <div ref={itemRef} className="w-[13rem] gap-4 max-h-80  mx-auto flex flex-wrap pt-10 overflow-y-auto no-scrollbar transition-all  ease-in-out scroll-smooth md:pt-16 md:max-h-[490px] md:gap-8 md:w-[14rem]  md:pb-4  lg:w-[19rem] ] ">
                             {
                                 icons.map(icon => {
                                     return (

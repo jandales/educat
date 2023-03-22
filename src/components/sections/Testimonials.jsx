@@ -18,7 +18,7 @@ function Testimonials()  {
             <Container>
                 <div className="w-full flex flex-col lg:flex-row ">
 
-                    <div class="w-full px-8 lg:px-0 lg:p-4 lg:w-3/5">
+                    <div className="w-full px-8 lg:px-0 lg:p-4 lg:w-3/5">
                         <br></br>
                         <TestimonialTitle text="They Said It First" />
                         <br></br>
@@ -49,8 +49,8 @@ function Testimonials()  {
                     </div>
 
 
-                    <div class="w-full   relative lg:w-2/5">
-                        <div data-aos="fade-up" data-aos-delay="100" data-aos-offset="500" class="w-full h-80  md:h-72 flex items-center justify-center  lg:ml-8  lg:h-[486px] lg:w-[503px]
+                    <div className="w-full   relative lg:w-2/5">
+                        <div data-aos="fade-up" data-aos-delay="100" data-aos-offset="500" className="w-full h-80  md:h-72 flex items-center justify-center  lg:ml-8  lg:h-[486px] lg:w-[503px]
                             before:block 
                             before:absolute  
                             before:rounded-full 

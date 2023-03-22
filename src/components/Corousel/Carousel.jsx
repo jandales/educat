@@ -9,7 +9,7 @@ import Arrow from './Arrow'
 function Carousel(props) {
  
         return (
-            <div className="relative bg-blue rounded-xl w-full  h-[250px] md:h-[280px] overflow-hidden px-10">
+            <div className="relative bg-blue rounded-xl w-full  h-[250px] md:h-[280px] lg:h-[367px] overflow-hidden px-10">
 
 
                     <div className="w-full relative h-auto z-10 lg:w-1/2 p-4 md:p-8 lg:mt-8">

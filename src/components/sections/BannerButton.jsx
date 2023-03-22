@@ -11,7 +11,7 @@ function BannerBottom() {
                 <div data-aos="fade-up" className="relative bg-[#3966D8] w-full overflow-hidden  py-16 mb-4 md:rounded-xl  ">
 
 
-                    <div data-aos="fade-right" data-aos-delay="300" class="absolute bottom-0 left-8 w-24 md:w-32 lg:w-auto lg:left-[95px]">
+                    <div data-aos="fade-right" data-aos-delay="300" className="absolute bottom-0 left-8 w-24 md:w-32 lg:w-auto lg:left-[95px]">
                         <img src={CatImage} />
                     </div>
 
@@ -30,7 +30,7 @@ function BannerBottom() {
                     </div>
 
 
-                    <div data-aos="fade-left" data-aos-delay="300" class="absolute bottom-0 right-8 w-24 md:w-32 lg:w-auto lg:right-[95px] ">
+                    <div data-aos="fade-left" data-aos-delay="300" className="absolute bottom-0 right-8 w-24 md:w-32 lg:w-auto lg:right-[95px] ">
                         <img src={PawsImage} />
                     </div>
                 </div>

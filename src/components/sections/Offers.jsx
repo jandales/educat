@@ -24,6 +24,7 @@ function Offers() {
                         offerList.map((item, index) => {
                             return (
                                 <Offer
+                                    key={index}
                                     animation={(index % 2 ? "fade-left" : "fade-right")}
                                     image={item.image}
                                     name={item.name}

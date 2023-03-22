@@ -8,7 +8,7 @@ function Alert() {
                         <p className="text-[#3966D8] text-center  md:text-left">
                             <strong>Covid 19 Response: No one should be left behind. </strong>
                             Check out our different ways of helping schools and institutions during the pandemic <span className="text-[#3966D8] ml-1">
-                                <i class="bi bi-arrow-right"></i>
+                                <i className="bi bi-arrow-right"></i>
                             </span></p>
                     </div>
                 </Container>
