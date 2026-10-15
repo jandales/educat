@@ -10,7 +10,7 @@ function Footer(){
         return (
             <Container>
                 <div data-aos="fade-up" id="footer" className="w-full  pt-12">
-                    <ul className=" w-full flex items-center justify-center gap-16">
+                    <ul className="w-full flex items-center justify-center gap-8 sm:gap-12 md:gap-16">
                         {
                             socialLinks.map((socialLink, index) => {
                                 return (

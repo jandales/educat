@@ -1,6 +1,6 @@
 export default function Container({ children }) {
     return ( 
-        <section className="w-full p-4 lg:max-w-5xl xl:max-w-6xl lg:mx-auto lg:p-0">
+        <section className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 md:px-10 lg:px-16 xl:px-20">
             {children}
         </section>
     )

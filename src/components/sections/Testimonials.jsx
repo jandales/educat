@@ -18,7 +18,7 @@ function Testimonials()  {
             <Container>
                 <div className="w-full flex flex-col lg:flex-row ">
 
-                    <div className="w-full px-8 lg:px-0 lg:p-4 lg:w-3/5">
+                    <div className="w-full px-4 sm:px-8 lg:px-0 lg:p-4 lg:w-3/5 min-w-0">
                         <br></br>
                         <TestimonialTitle text="They Said It First" />
                         <br></br>
@@ -50,21 +50,23 @@ function Testimonials()  {
 
 
                     <div className="w-full   relative lg:w-2/5">
-                        <div data-aos="fade-up" data-aos-delay="100" data-aos-offset="500" className="w-full h-80  md:h-72 flex items-center justify-center  lg:ml-8  lg:h-[486px] lg:w-[503px]
+                        <div data-aos="fade-up" data-aos-delay="100" data-aos-offset="500" className="w-full max-w-full h-80 md:h-72 flex items-center justify-center lg:ml-4 xl:ml-8 lg:h-[486px] lg:max-w-[503px]
                             before:block 
                             before:absolute  
                             before:rounded-full 
                             before:w-full 
+                            before:max-w-full
                             before:aspect-square 
                             before:bg-[#FDC00F]
                             before:top-[50%]
-                            lg:before:w-[503px]
-                            lg:before:h-[503px]                      
+                            lg:before:w-full
+                            lg:before:max-w-[503px]
+                            lg:before:aspect-square
                             lg:before:left-0
                             lg:before:bottom-0
                             lg:before:top-36"
                         >
-                            <img src={TestimonialPersonImage} className="absolute -bottom-10 w-52  z-10 lg:block lg:ml-12 lg:bottom-0 lg:w-[325px]" />
+                            <img src={TestimonialPersonImage} className="absolute -bottom-10 w-52 max-w-full z-10 lg:block lg:ml-8 xl:ml-12 lg:bottom-0 lg:w-[325px]" />
 
                         </div>
                     </div>

@@ -14,7 +14,7 @@ const isEven = (number) => {
 function Offers() {
     return (
             <Container>
-                <div data-aos="fade-up" data-aos-delay="100" id="offers" className="w-full  pt-16 md:px-4 md:min-h-screen">
+                <div data-aos="fade-up" data-aos-delay="100" id="offers" className="w-full pt-16 md:min-h-screen">
 
                     <div className="block py-16">
                         <Title text="The LMS that's built for every need" />

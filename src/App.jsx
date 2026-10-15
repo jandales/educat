@@ -18,10 +18,11 @@ import Footer from './components/sections/Footer';
 function App() {
   Aos.init({
     duration: 2000,
-    offset : 0,
+    offset: 0,
+    once: true,
   });
   return (
-    <div className="w-full lg:p-0  lg:max-w-[1440px]">
+    <div className="w-full max-w-full overflow-x-clip">
       <Alert />
       <Navigation />
       <Hero />

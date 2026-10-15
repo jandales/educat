@@ -31,10 +31,10 @@ function Navigation() {
             <div className="w-full flex items-center justify-between md:py-8  lg:px-0">
 
                 <a href='#' >
-                    <img data-aos="fade-down" src={logo} className='w-[180px] md:w-[232px]' />
+                    <img data-aos="fade-down" src={logo} className='w-[140px] sm:w-[180px] md:w-[232px]' />
                 </a>
 
-                <span data-aos="fade-down" onClick={handleOpenMenu} className="text-3xl lg:hidden"><i className="bi bi-list"></i></span>
+                <span data-aos="fade-down" onClick={handleOpenMenu} className="text-3xl shrink-0 lg:hidden"><i className="bi bi-list"></i></span>
 
                 <nav data-aos="fade-down" id="nav" className='hidden w-full h-full z-10 fixed top-0 left-0 bg-white flex-col gap-8 items-center  p-8 
                 lg:w-auto

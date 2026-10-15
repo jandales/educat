@@ -16,11 +16,11 @@ function BannerBottom() {
                     </div>
 
 
-                    <div className="flex flex-col items-center justify-center lg:w-[764px] lg:mx-auto">
+                    <div className="flex flex-col items-center justify-center w-full max-w-full px-4 lg:max-w-[764px] lg:mx-auto lg:px-0">
 
                         <h2 data-aos="fade-up" data-aos-delay="100" className="text-3xl text-white font-bold text-center pb-4">Want to see what Educat can do for you?</h2>
 
-                        <p data-aos="fade-up" data-aos-delay="200" className="text-white text-base text-center px-16 mb-10 lg:pb-12">
+                        <p data-aos="fade-up" data-aos-delay="200" className="text-white text-base text-center px-4 sm:px-8 md:px-16 mb-10 lg:pb-12">
 
                             Learn more by booking a demo today and discover why Educat is the only platform you'll ever need for your learning and training needs.
                         </p>
